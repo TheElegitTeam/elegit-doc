@@ -1,0 +1,10 @@
+.. _load-repo:
+
+====================
+Loading a Repository
+====================
+1. Press the plus button
+2. Do more things
+
+
+.. image:: catmafia.jpeg
