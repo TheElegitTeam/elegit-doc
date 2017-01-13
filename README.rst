@@ -2,7 +2,7 @@ Elegit Documentation
 ====================
 About
 -----
-This repository contains the documentation source files for Elegit (`elegit.org`_).
+This repository contains the documentation source files for Elegit (elegit.org).
 
 Contributing
 ------------
