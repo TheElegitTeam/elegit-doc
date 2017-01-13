@@ -2,7 +2,11 @@ Elegit Documentation
 ====================
 About
 -----
+<<<<<<< HEAD
 This repository contains the documentation source files for Elegit (`elegit.org`_).
+=======
+This repository contains the documentation source files for Elegit (elegit.org).
+>>>>>>> parent of 4bafe0d... small change on readme
 
 Contributing
 ------------
