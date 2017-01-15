@@ -85,11 +85,24 @@ todo_include_todos = False
 html_theme = 'alabaster'
 #html_theme = 'sphinx_rtd_theme'
 
+# Caleb added this from alabaster.readthedocs.io/en/latest/installation.html
+html_sidebars = {
+    '**': [
+        'about.html',
+        'navigation.html',
+        'relations.html',
+        'searchbox.html',
+        'donate.html',
+    ]
+}
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = {
+    'logo': 'logo.png',
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -152,6 +165,3 @@ texinfo_documents = [
      author, 'Elegit', 'One line description of project.',
      'Miscellaneous'),
 ]
-
-
-
