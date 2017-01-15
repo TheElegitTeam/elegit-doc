@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Merging &#8212; Elegit 1.0 documentation</title>
+    <title>First Elegit Project &#8212; Elegit 1.0 documentation</title>
     
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -26,8 +26,8 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="The Tree View" href="tree_view.html" />
-    <link rel="prev" title="Creating a Branch" href="branch.html" />
+    <link rel="next" title="Loading a Repository" href="load_repo.html" />
+    <link rel="prev" title="Getting Started" href="getting_started.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -43,21 +43,33 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="merging">
-<h1>Merging<a class="headerlink" href="#merging" title="Permalink to this headline">¶</a></h1>
-<p>There are different things that can happen when merging</p>
-<div class="section" id="how-to-merge">
-<h2>How to merge<a class="headerlink" href="#how-to-merge" title="Permalink to this headline">¶</a></h2>
-<p>This can happen</p>
+  <div class="section" id="first-elegit-project">
+<span id="intro-tutorial"></span><h1>First Elegit Project<a class="headerlink" href="#first-elegit-project" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="create-a-new-repository">
+<h2>Create a New Repository<a class="headerlink" href="#create-a-new-repository" title="Permalink to this headline">¶</a></h2>
+<p>In order to use Elegit you will first need to:</p>
 <ul class="simple">
-<li>One thing</li>
-<li>Two thing</li>
-<li>Three thing</li>
+<li>Make sure git is installed on your machine</li>
+<li>Have an existing git repository</li>
+<li>Create an account with GitHub, Bitbucket, or another similar service</li>
 </ul>
+<p>Next click the plus button in the top left corner:</p>
+<img alt="_images/add_button.png" src="_images/add_button.png" />
+<p>If you do not already have a local copy of the repository you want to work with, click &#8220;Clone repository&#8221;, otherwise click &#8220;Load existing repository&#8221;.</p>
+<img alt="_images/add_button_options.png" src="_images/add_button_options.png" />
+<p>Once you have loaded a repository, you should see a <a class="reference internal" href="tree_view.html#tree-view"><span class="std std-ref">tree structure</span></a> in the middle of the screen representing the project status and history.</p>
 </div>
-<div class="section" id="resolving-conflicts">
-<h2>Resolving conflicts<a class="headerlink" href="#resolving-conflicts" title="Permalink to this headline">¶</a></h2>
-<p><code class="docutils literal"><span class="pre">things</span> <span class="pre">break</span></code></p>
+<div class="section" id="adding-changes">
+<h2>Adding Changes<a class="headerlink" href="#adding-changes" title="Permalink to this headline">¶</a></h2>
+<p>As you work on your project, you will notice that Elegit will display the files you have changed in the file view on the left. Initially, they will be tagged as <cite>MODIFIED</cite>. When wish to add a file, simply click the check next to it and press the &#8220;Add&#8221; button. You should now see the tag changed to <cite>STAGED</cite>. By staging a file you are saying you are finalizing the modifications to that file and are ready to commit it.</p>
+</div>
+<div class="section" id="committing-changes">
+<h2>Committing Changes<a class="headerlink" href="#committing-changes" title="Permalink to this headline">¶</a></h2>
+<p>The commit box shows which files you have staged. Add a useful message and hit the &#8220;Commit&#8221; button. Congrats!</p>
+</div>
+<div class="section" id="pushing-changes">
+<h2>Pushing Changes<a class="headerlink" href="#pushing-changes" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference internal" href="push.html#push"><span class="std std-ref">Pushing to a Remote Repository</span></a></p>
 </div>
 </div>
 
@@ -84,18 +96,20 @@
 <h3>Navigation</h3>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="intro_tutorial.html">First Elegit Project</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">First Elegit Project</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#create-a-new-repository">Create a New Repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#adding-changes">Adding Changes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#committing-changes">Committing Changes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pushing-changes">Pushing Changes</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="load_repo.html">Loading a Repository</a></li>
 <li class="toctree-l1"><a class="reference internal" href="add_files.html">Adding Files</a></li>
 <li class="toctree-l1"><a class="reference internal" href="commit.html">Commiting Changes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="push.html">Pushing to a Remote Repository</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fetch.html">Fetching</a></li>
 <li class="toctree-l1"><a class="reference internal" href="branch.html">Creating a Branch</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Merging</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#how-to-merge">How to merge</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#resolving-conflicts">Resolving conflicts</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="merging.html">Merging</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tree_view.html">The Tree View</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contribute_docs.html">Help Add Documentation</a></li>
 </ul>
@@ -104,8 +118,8 @@
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="branch.html" title="previous chapter">Creating a Branch</a></li>
-      <li>Next: <a href="tree_view.html" title="next chapter">The Tree View</a></li>
+      <li>Previous: <a href="getting_started.html" title="previous chapter">Getting Started</a></li>
+      <li>Next: <a href="load_repo.html" title="next chapter">Loading a Repository</a></li>
   </ul></li>
 </ul>
 </div>
@@ -131,7 +145,7 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
       
       |
-      <a href="_sources/merging.rst.txt"
+      <a href="_sources/intro_tutorial.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

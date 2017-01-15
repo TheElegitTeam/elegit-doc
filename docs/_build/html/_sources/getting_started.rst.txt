@@ -15,4 +15,4 @@ Elegit is in production and looking for feedback. Try it out and let us know wha
 7. In the *Project Structure* menu, under *Project*, make sure the Project SDK is *at least* Java Version 8 Update 60.
 8. Run the ``main`` method of the ``Main`` class.
 
-Next you may want to see :ref:`load-repo` to start using Elegit with your project.
+Next you may want to see :ref:`load-repo` to start using Elegit with your project, or :ref:`intro-tutorial` to learn the basics.

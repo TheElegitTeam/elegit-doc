@@ -26,7 +26,7 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Merging" href="merging.html" />
+    <link rel="prev" title="The Tree View" href="tree_view.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -45,7 +45,23 @@
   <div class="section" id="help-add-documentation">
 <span id="contribute-docs"></span><h1>Help Add Documentation<a class="headerlink" href="#help-add-documentation" title="Permalink to this headline">¶</a></h1>
 <p>Elegit is an educational tool. If there is something unclear that you would like to explain better, create documentation for it!</p>
-<p>The documentation for Elegit is written in <a class="reference external" href="http://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html">reStructuredText</a> and generated using <a class="reference external" href="http://www.sphinx-doc.org/en/1.5.1/">Sphinx</a>. You can add documentation files to our <a class="reference external" href="https://github.com/TheElegitTeam/elegit-doc">documentation repository</a>.</p>
+<p>The documentation for Elegit is written in <a class="reference external" href="http://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html">reStructuredText</a> and generated using <a class="reference external" href="http://www.sphinx-doc.org/en/1.5.1/">Sphinx</a>. You can add documentation files to our <a class="reference external" href="https://github.com/TheElegitTeam/elegit-doc">documentation repository</a>. See below for more details on writing docs.</p>
+<div class="section" id="installing-sphinx">
+<h2>Installing Sphinx<a class="headerlink" href="#installing-sphinx" title="Permalink to this headline">¶</a></h2>
+<p>To parse the files written in reStructuredText into the actual HTML docs, we use a tool called Sphinx. To view your new pages or changes, you will first need to <a class="reference external" href="http://www.sphinx-doc.org/en/1.5.1/tutorial.html">install Sphinx</a> on your machine. The easiest way to install it is with <code class="docutils literal"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">sphinx</span></code>.</p>
+</div>
+<div class="section" id="adding-files">
+<h2>Adding Files<a class="headerlink" href="#adding-files" title="Permalink to this headline">¶</a></h2>
+<p>Existing and new pages should all be in the <code class="docutils literal"><span class="pre">docs/</span></code> directory. Before creating a new file, check to see if there is a relevant page that it would make more sense to add to. If you do create a new file, make sure you add it to the table of contents in <code class="docutils literal"><span class="pre">index.rst</span></code> or Sphinx will give you the warning:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ WARNING: document isn&#39;t included in any toctree
+</pre></div>
+</div>
+<p>Simply open or create the <code class="docutils literal"><span class="pre">.rst</span></code> file you wish to edit and write away!</p>
+</div>
+<div class="section" id="creating-html">
+<h2>Creating HTML<a class="headerlink" href="#creating-html" title="Permalink to this headline">¶</a></h2>
+<p>Generating documentation from the <code class="docutils literal"><span class="pre">.rst</span></code> files is very easy. Simply run <code class="docutils literal"><span class="pre">make</span> <span class="pre">html</span></code> from the <code class="docutils literal"><span class="pre">docs/</span></code> directory and Sphinx will create the corresponding HTML. The results can be found in <code class="docutils literal"><span class="pre">_build/html</span></code>.</p>
+</div>
 </div>
 
 
@@ -71,6 +87,7 @@
 <h3>Navigation</h3>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intro_tutorial.html">First Elegit Project</a></li>
 <li class="toctree-l1"><a class="reference internal" href="load_repo.html">Loading a Repository</a></li>
 <li class="toctree-l1"><a class="reference internal" href="add_files.html">Adding Files</a></li>
 <li class="toctree-l1"><a class="reference internal" href="commit.html">Commiting Changes</a></li>
@@ -78,14 +95,20 @@
 <li class="toctree-l1"><a class="reference internal" href="fetch.html">Fetching</a></li>
 <li class="toctree-l1"><a class="reference internal" href="branch.html">Creating a Branch</a></li>
 <li class="toctree-l1"><a class="reference internal" href="merging.html">Merging</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Help Add Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tree_view.html">The Tree View</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Help Add Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#installing-sphinx">Installing Sphinx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#adding-files">Adding Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#creating-html">Creating HTML</a></li>
+</ul>
+</li>
 </ul>
 
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="merging.html" title="previous chapter">Merging</a></li>
+      <li>Previous: <a href="tree_view.html" title="previous chapter">The Tree View</a></li>
   </ul></li>
 </ul>
 </div>

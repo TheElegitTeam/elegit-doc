@@ -27,6 +27,7 @@ Contents
    :maxdepth: 2
 
    getting_started
+   intro_tutorial
    load_repo
    add_files
    commit
@@ -34,4 +35,5 @@ Contents
    fetch
    branch
    merging
+   tree_view
    contribute_docs
