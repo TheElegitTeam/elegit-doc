@@ -36,4 +36,5 @@ Contents
    branch
    merging
    tree_view
+   notes
    contribute_docs

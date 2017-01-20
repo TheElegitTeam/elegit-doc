@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Search &#8212; Elegit 1.0 documentation</title>
+    <title>Notes About Documentation &#8212; Elegit 1.0 documentation</title>
     
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -24,21 +24,15 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="_static/searchtools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="#" />
-  <script type="text/javascript">
-    jQuery(function() { Search.loadIndex("searchindex.js"); });
-  </script>
-  
-  <script type="text/javascript" id="searchindexloader"></script>
-  
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Help Add Documentation" href="contribute_docs.html" />
+    <link rel="prev" title="The Tree View" href="tree_view.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
   
   <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
-
 
   </head>
   <body role="document">
@@ -49,29 +43,32 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <h1 id="search-documentation">Search</h1>
-  <div id="fallback" class="admonition warning">
-  <script type="text/javascript">$('#fallback').hide();</script>
-  <p>
-    Please activate JavaScript to enable the search
-    functionality.
-  </p>
-  </div>
-  <p>
-    From here you can search these documents. Enter your search
-    words into the box below and click "search". Note that the search
-    function will automatically search for all of the words. Pages
-    containing fewer words won't appear in the result list.
-  </p>
-  <form action="" method="get">
-    <input type="text" name="q" value="" />
-    <input type="submit" value="search" />
-    <span id="search-progress" style="padding-left: 10px"></span>
-  </form>
-  
-  <div id="search-results">
-  
-  </div>
+  <div class="section" id="notes-about-documentation">
+<h1>Notes About Documentation<a class="headerlink" href="#notes-about-documentation" title="Permalink to this headline">¶</a></h1>
+<p>Who are we writing documentation for?</p>
+<ul class="simple">
+<li>Users – generally students</li>
+</ul>
+<div class="section" id="good-things-to-have">
+<h2>Good things to have<a class="headerlink" href="#good-things-to-have" title="Permalink to this headline">¶</a></h2>
+<p>Here are some good things that quality documentation might have:</p>
+<ul class="simple">
+<li>A description of what exactly the project is (for people who google it, ect.)</li>
+<li>Example of what it would be used for</li>
+<li>FAQs (that are kept up to date!)</li>
+<li>Information for people who want to contribute</li>
+<li>Installation instructions</li>
+<li>The project&#8217;s license</li>
+</ul>
+<p>There are three main formats for the different types of documentation (from <a class="reference external" href="https://jacobian.org/writing/what-to-write/">https://jacobian.org/writing/what-to-write/</a>)</p>
+<ol class="arabic simple">
+<li>step-by-step tutorials (quick, easy, not too easy, sense of project)</li>
+<li>overviews and topical guids to the various conceptual areas of the project (majority of the documentation)</li>
+<li>low-level, deep-dive reference material (details for more advanced users)</li>
+</ol>
+</div>
+</div>
+
 
           </div>
         </div>
@@ -93,7 +90,7 @@
 
 
 <h3>Navigation</h3>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
 <li class="toctree-l1"><a class="reference internal" href="intro_tutorial.html">First Elegit Project</a></li>
 <li class="toctree-l1"><a class="reference internal" href="load_repo.html">Loading a Repository</a></li>
@@ -104,7 +101,10 @@
 <li class="toctree-l1"><a class="reference internal" href="branch.html">Creating a Branch</a></li>
 <li class="toctree-l1"><a class="reference internal" href="merging.html">Merging</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tree_view.html">The Tree View</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notes.html">Notes About Documentation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Notes About Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#good-things-to-have">Good things to have</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="contribute_docs.html">Help Add Documentation</a></li>
 </ul>
 
@@ -112,9 +112,21 @@
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="tree_view.html" title="previous chapter">The Tree View</a></li>
+      <li>Next: <a href="contribute_docs.html" title="next chapter">Help Add Documentation</a></li>
   </ul></li>
 </ul>
 </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
       </div>
       <div class="clearer"></div>
@@ -126,6 +138,9 @@
       Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
       
+      |
+      <a href="_sources/notes.rst.txt"
+          rel="nofollow">Page source</a>
     </div>
 
     
