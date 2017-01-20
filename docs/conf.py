@@ -102,6 +102,11 @@ html_sidebars = {
 #
 html_theme_options = {
     'logo': 'logo.png',
+    'logo_name' : True,
+    'github_user' : 'dmusican',
+    'github_repo' : 'Elegit',
+    'github_button' : True,
+    'github_banner' : True,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,

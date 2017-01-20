@@ -1,3 +1,5 @@
+.. _notes:
+
 ==============================
 Notes About Documentation
 ==============================
@@ -11,7 +13,7 @@ Good things to have
 Here are some good things that quality documentation might have:
 
 * A description of what exactly the project is (for people who google it, ect.)
-* Example of what it would be used for 
+* Example of what it would be used for
 * FAQs (that are kept up to date!)
 * Information for people who want to contribute
 * Installation instructions

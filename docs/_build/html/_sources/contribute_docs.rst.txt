@@ -22,4 +22,35 @@ Simply open or create the ``.rst`` file you wish to edit and write away!
 
 Creating HTML
 -------------
-Generating documentation from the ``.rst`` files is very easy. Simply run ``make html`` from the ``docs/`` directory and Sphinx will create the corresponding HTML. The results can be found in ``_build/html``.
+Generating documentation from the ``.rst`` files is very easy. Simply run ``make html`` from the ``docs/`` directory and Sphinx will create the corresponding HTML. The results can be found in ``_build/html``. If something seems off or you don't see a change that you just made, running ``make clean`` before you build can sometimes help.
+
+Inserting Images
+----------------
+Images are essential to any good tutorial. To insert an image, use the image directive. Details can be found by looking at the `documentation <http://docutils.sourceforge.net/docs/ref/rst/directives.html#image>`_ or by looking at the source of :ref:`intro-tutorial` or this page. If possible, take large screenshots by using a display with a high resolution and scale to 50%. This makes it look much better:
+
+**Screenshot from regular display:**
+
+.. image:: _static/screenshots/add_button.png
+    :alt: The "add" button
+
+**Screenshot from retina display:**
+
+.. image:: _static/screenshots/add_button_retina.png
+    :scale: 50%
+    :alt: The "add" button
+
+Next Steps
+----------
+Now let's get started! First look at the documentation that currently exists and read :ref:`notes`. Here are some tasks to get started on (and feel free to add more):
+
+* Complete :ref:`intro-tutorial` tutorial
+* Create page on distinctions between Working Tree, Local Repository, and Remote Repository
+* Change the :ref:`add` page to be more general and talk about staging
+* Write :ref:`commit` page and describe commit window options
+* Write tutorial on branching (something like `this <https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging>`_ or `this tutorial <https://www.atlassian.com/git/tutorials/using-branches>`_ but in Elegit)
+* Page on merge window and its options
+* Write detailed tutorial(s) on merging
+* Even more on merging?
+* Page on what the :ref:`tree-view` represents
+* Page on what the files view represents
+* Page on the commit info window (that pops up when you click on a commit)

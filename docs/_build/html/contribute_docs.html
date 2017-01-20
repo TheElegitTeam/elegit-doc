@@ -26,7 +26,7 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="The Tree View" href="tree_view.html" />
+    <link rel="prev" title="Notes About Documentation" href="notes.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -60,7 +60,32 @@
 </div>
 <div class="section" id="creating-html">
 <h2>Creating HTML<a class="headerlink" href="#creating-html" title="Permalink to this headline">¶</a></h2>
-<p>Generating documentation from the <code class="docutils literal"><span class="pre">.rst</span></code> files is very easy. Simply run <code class="docutils literal"><span class="pre">make</span> <span class="pre">html</span></code> from the <code class="docutils literal"><span class="pre">docs/</span></code> directory and Sphinx will create the corresponding HTML. The results can be found in <code class="docutils literal"><span class="pre">_build/html</span></code>.</p>
+<p>Generating documentation from the <code class="docutils literal"><span class="pre">.rst</span></code> files is very easy. Simply run <code class="docutils literal"><span class="pre">make</span> <span class="pre">html</span></code> from the <code class="docutils literal"><span class="pre">docs/</span></code> directory and Sphinx will create the corresponding HTML. The results can be found in <code class="docutils literal"><span class="pre">_build/html</span></code>. If something seems off or you don&#8217;t see a change that you just made, running <code class="docutils literal"><span class="pre">make</span> <span class="pre">clean</span></code> before you build can sometimes help.</p>
+</div>
+<div class="section" id="inserting-images">
+<h2>Inserting Images<a class="headerlink" href="#inserting-images" title="Permalink to this headline">¶</a></h2>
+<p>Images are essential to any good tutorial. To insert an image, use the image directive. Details can be found by looking at the <a class="reference external" href="http://docutils.sourceforge.net/docs/ref/rst/directives.html#image">documentation</a> or by looking at the source of <a class="reference internal" href="intro_tutorial.html#intro-tutorial"><span class="std std-ref">First Elegit Project</span></a> or this page. If possible, take large screenshots by using a display with a high resolution and scale to 50%. This makes it look much better:</p>
+<p><strong>Screenshot from regular display:</strong></p>
+<img alt="The &quot;add&quot; button" src="_images/add_button.png" />
+<p><strong>Screenshot from retina display:</strong></p>
+<a class="reference internal image-reference" href="_images/add_button_retina.png"><img alt="The &quot;add&quot; button" src="_images/add_button_retina.png" style="width: 330.0px; height: 183.0px;" /></a>
+</div>
+<div class="section" id="next-steps">
+<h2>Next Steps<a class="headerlink" href="#next-steps" title="Permalink to this headline">¶</a></h2>
+<p>Now let&#8217;s get started! First look at the documentation that currently exists and read <a class="reference internal" href="notes.html#notes"><span class="std std-ref">Notes About Documentation</span></a>. Here are some tasks to get started on (and feel free to add more):</p>
+<ul class="simple">
+<li>Complete <a class="reference internal" href="intro_tutorial.html#intro-tutorial"><span class="std std-ref">First Elegit Project</span></a> tutorial</li>
+<li>Create page on distinctions between Working Tree, Local Repository, and Remote Repository</li>
+<li>Change the <a class="reference internal" href="add_files.html#add"><span class="std std-ref">Adding Files</span></a> page to be more general and talk about staging</li>
+<li>Write <a class="reference internal" href="commit.html#commit"><span class="std std-ref">Commiting Changes</span></a> page and describe commit window options</li>
+<li>Write tutorial on branching (something like <a class="reference external" href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging">this</a> or <a class="reference external" href="https://www.atlassian.com/git/tutorials/using-branches">this tutorial</a> but in Elegit)</li>
+<li>Page on merge window and its options</li>
+<li>Write detailed tutorial(s) on merging</li>
+<li>Even more on merging?</li>
+<li>Page on what the <a class="reference internal" href="tree_view.html#tree-view"><span class="std std-ref">The Tree View</span></a> represents</li>
+<li>Page on what the files view represents</li>
+<li>Page on the commit info window (that pops up when you click on a commit)</li>
+</ul>
 </div>
 </div>
 
@@ -74,11 +99,20 @@
   <a href="index.html">
     <img class="logo" src="_static/logo.png" alt="Logo"/>
     
+    <h1 class="logo logo-name">Elegit</h1>
+    
   </a>
 </p>
 
 
 
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=dmusican&repo=Elegit&type=watch&count=true&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
 
 
 
@@ -96,10 +130,13 @@
 <li class="toctree-l1"><a class="reference internal" href="branch.html">Creating a Branch</a></li>
 <li class="toctree-l1"><a class="reference internal" href="merging.html">Merging</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tree_view.html">The Tree View</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notes.html">Notes About Documentation</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Help Add Documentation</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#installing-sphinx">Installing Sphinx</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#adding-files">Adding Files</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#creating-html">Creating HTML</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#inserting-images">Inserting Images</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#next-steps">Next Steps</a></li>
 </ul>
 </li>
 </ul>
@@ -108,7 +145,7 @@
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="tree_view.html" title="previous chapter">The Tree View</a></li>
+      <li>Previous: <a href="notes.html" title="previous chapter">Notes About Documentation</a></li>
   </ul></li>
 </ul>
 </div>
@@ -138,6 +175,10 @@
           rel="nofollow">Page source</a>
     </div>
 
+    
+    <a href="https://github.com/dmusican/Elegit" class="github">
+        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"  class="github"/>
+    </a>
     
 
     

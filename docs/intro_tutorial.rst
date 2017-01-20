@@ -14,7 +14,9 @@ In order to use Elegit you will first need to:
 
 Next click the plus button in the top left corner:
 
-.. image:: _static/screenshots/add_button.png
+.. image:: _static/screenshots/add_button_retina.png
+    :scale: 50%
+    :alt: The "add" button
 
 If you do not already have a local copy of the repository you want to work with, click "Clone repository", otherwise click "Load existing repository".
 
