@@ -15,7 +15,7 @@ Welcome to Elegit!
    load_repo
    add_files
    commit
-   push
+   Pushing <push>
    fetch
    branch
    merging
