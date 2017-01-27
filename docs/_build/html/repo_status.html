@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Creating a Branch &#8212; Elegit 1.0 documentation</title>
+    <title>Repository Status &#8212; Elegit 1.0 documentation</title>
     
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -26,8 +26,8 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Merging" href="merging.html" />
-    <link rel="prev" title="Fetching" href="fetch.html" />
+    <link rel="next" title="Loading a Repository" href="load_repo.html" />
+    <link rel="prev" title="First Elegit Project" href="intro_tutorial.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -43,11 +43,25 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="creating-a-branch">
-<span id="branch"></span><h1>Creating a Branch<a class="headerlink" href="#creating-a-branch" title="Permalink to this headline">¶</a></h1>
-<p>Explanation of the page goes here!</p>
-<p>Here&#8217;s a tutorial:</p>
-<img alt="_images/sample.png" src="_images/sample.png" />
+  <div class="section" id="repository-status">
+<span id="repo-status"></span><h1>Repository Status<a class="headerlink" href="#repository-status" title="Permalink to this headline">¶</a></h1>
+<p>The main view in Elegit shows the status of your <a class="reference internal" href="#working-tree"><span class="std std-ref">Working Tree</span></a>, Local Repository, and Remote Repository.</p>
+<a class="reference internal image-reference" href="_images/main_view.png"><img alt="_images/main_view.png" src="_images/main_view.png" style="width: 673.4px; height: 400.96px;" /></a>
+<div class="section" id="working-tree">
+<span id="id1"></span><h2>Working Tree<a class="headerlink" href="#working-tree" title="Permalink to this headline">¶</a></h2>
+<p>The <strong>Working Tree</strong> is the directory of files that you are currently changing on the branch you are on. For more information about branches and branching, see <a class="reference internal" href="branch.html#branch"><span class="std std-ref">Creating a Branch</span></a>. The <strong>Working Tree</strong> pane in Elegit is your main way of seeing what files you have created, changed, or deleted. Clicking the <strong>All Files</strong> tab allows you to browse the file structure of your repository. Files in the working tree are tagged to represent their status.</p>
+<ul class="simple">
+<li><a class="reference internal" href="_images/tag_missing.png"><img alt="missing" src="_images/tag_missing.png" style="width: 45.5px; height: 19.0px;" /></a>     This file was deleted or otherwise removed from the repository.</li>
+<li><a class="reference internal" href="_images/tag_untracked.png"><img alt="untracked" src="_images/tag_untracked.png" style="width: 61.5px; height: 19.0px;" /></a> This file has not been added to git.</li>
+<li><a class="reference internal" href="_images/tag_modified.png"><img alt="modified" src="_images/tag_modified.png" style="width: 52.0px; height: 19.0px;" /></a> This file was modified after your most recent commit.</li>
+<li><a class="reference internal" href="_images/tag_staged.png"><img alt="staged" src="_images/tag_staged.png" style="width: 44.0px; height: 19.0px;" /></a> This file has a version stored in your git index and is ready to commit.</li>
+<li><a class="reference internal" href="_images/tag_staged_modified.png"><img alt="staged_modified" src="_images/tag_staged_modified.png" style="width: 52.0px; height: 31.0px;" /></a> This file has a version stored in your git index and other changes in the working directory.</li>
+<li><a class="reference internal" href="_images/tag_ignored.png"><img alt="ignored" src="_images/tag_ignored.png" style="width: 50.0px; height: 19.0px;" /></a> This file is being ignored because it is in your .gitignore. Remove it from your .gitignore if you want to add it to git.</li>
+<li><a class="reference internal" href="_images/tag_unchanged.png"><img alt="unchanged" src="_images/tag_unchanged.png" style="width: 64.5px; height: 19.0px;" /></a> This file has not been changed since your most recent commit.</li>
+<li>conflicting</li>
+<li>conflicting modified</li>
+</ul>
+</div>
 </div>
 
 
@@ -83,12 +97,15 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
 <li class="toctree-l1"><a class="reference internal" href="intro_tutorial.html">First Elegit Project</a></li>
-<li class="toctree-l1"><a class="reference internal" href="repo_status.html">Repository Status</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Repository Status</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#working-tree">Working Tree</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="load_repo.html">Loading a Repository</a></li>
 <li class="toctree-l1"><a class="reference internal" href="add_files.html">Adding Files</a></li>
 <li class="toctree-l1"><a class="reference internal" href="push.html">Pushing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fetch.html">Fetching</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Creating a Branch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="branch.html">Creating a Branch</a></li>
 <li class="toctree-l1"><a class="reference internal" href="merging.html">Merging</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tree_view.html">The Tree View</a></li>
 <li class="toctree-l1"><a class="reference internal" href="notes.html">Notes About Documentation</a></li>
@@ -99,8 +116,8 @@
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="fetch.html" title="previous chapter">Fetching</a></li>
-      <li>Next: <a href="merging.html" title="next chapter">Merging</a></li>
+      <li>Previous: <a href="intro_tutorial.html" title="previous chapter">First Elegit Project</a></li>
+      <li>Next: <a href="load_repo.html" title="next chapter">Loading a Repository</a></li>
   </ul></li>
 </ul>
 </div>
@@ -126,7 +143,7 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
       
       |
-      <a href="_sources/branch.rst.txt"
+      <a href="_sources/repo_status.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

@@ -54,3 +54,4 @@ Now let's get started! First look at the documentation that currently exists and
 * Page on what the :ref:`tree-view` represents
 * Page on what the files view represents
 * Page on the commit info window (that pops up when you click on a commit)
+* Create pages for other missing basics

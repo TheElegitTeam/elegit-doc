@@ -12,9 +12,9 @@ Welcome to Elegit!
 
    getting_started
    intro_tutorial
+   repo_status
    load_repo
    add_files
-   commit
    Pushing <push>
    fetch
    branch

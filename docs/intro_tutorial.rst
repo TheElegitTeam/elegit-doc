@@ -4,25 +4,25 @@
 First Elegit Project
 ====================
 
-Create a New Repository
+Loading a Repository
 -----------------------
 In order to use Elegit you will first need to:
 
-* Make sure git is installed on your machine
-* Have an existing git repository
+* `Install Git <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>`_
+* Have an existing git repository, either locally or remotely
 * Create an account with GitHub, Bitbucket, or another similar service
 
 Next click the plus button in the top left corner:
 
-.. image:: _static/screenshots/add_button_retina.png
+.. image:: _static/screenshots/new_repo.png
+     :scale: 50%
+
+If you already have a local copy of the git repository you want to work with, select **Load existing repository** and open the folder containing the repository. Otherwise, click **Clone repository** (or navigate **Repository > Clone**).
+
+.. image:: _static/screenshots/clone_window.png
     :scale: 50%
-    :alt: The "add" button
 
-If you do not already have a local copy of the repository you want to work with, click "Clone repository", otherwise click "Load existing repository".
-
-.. image:: _static/screenshots/add_button_options.png
-
-Once you have loaded a repository, you should see a :ref:`tree structure <tree-view>` in the middle of the screen representing the project status and history.
+Fill out the information for your project and click **Clone**. If the repository has loaded successfully, you should see a :ref:`tree structure <tree-view>` in the middle of the screen representing the project status and history. To learn more about how Elegit shows the state of your repository, see :ref:`repo-status`.
 
 Adding Changes
 --------------
