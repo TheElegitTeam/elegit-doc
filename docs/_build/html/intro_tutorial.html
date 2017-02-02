@@ -53,23 +53,19 @@
 <li>Have an existing git repository, either locally or remotely</li>
 <li>Create an account with GitHub, Bitbucket, or another similar service</li>
 </ul>
-<p>Next click the plus button in the top left corner:</p>
+<p>Next, open Elegit and click the plus button in the top left corner:</p>
 <a class="reference internal image-reference" href="_images/new_repo.png"><img alt="_images/new_repo.png" src="_images/new_repo.png" style="width: 380.0px; height: 220.0px;" /></a>
 <p>If you already have a local copy of the git repository you want to work with, select <strong>Load existing repository</strong> and open the folder containing the repository. Otherwise, click <strong>Clone repository</strong> (or navigate <strong>Repository &gt; Clone</strong>).</p>
 <a class="reference internal image-reference" href="_images/clone_window.png"><img alt="_images/clone_window.png" src="_images/clone_window.png" style="width: 374.0px; height: 276.5px;" /></a>
-<p>Fill out the information for your project and click <strong>Clone</strong>. If the repository has loaded successfully, you should see a <a class="reference internal" href="tree_view.html#tree-view"><span class="std std-ref">tree structure</span></a> in the middle of the screen representing the project status and history. To learn more about how Elegit shows the state of your repository, see <a class="reference internal" href="repo_status.html#repo-status"><span class="std std-ref">Repository Status</span></a>.</p>
+<p>Fill out the information for your project and click <strong>Clone</strong>. If the repository has loaded successfully, you should see a <a class="reference internal" href="tree_view.html#tree-view"><span class="std std-ref">tree structure</span></a> in the middle of the screen representing the project status and history. To learn more about how Elegit represents the state of your repository, see <a class="reference internal" href="repo_status.html#repo-status"><span class="std std-ref">Repository Status</span></a>.</p>
 </div>
 <div class="section" id="adding-changes">
 <h2>Adding Changes<a class="headerlink" href="#adding-changes" title="Permalink to this headline">¶</a></h2>
-<p>As you work on your project, you will notice that Elegit will display the files you have changed in the file view on the left. Initially, they will be tagged as <cite>MODIFIED</cite>. When wish to add a file, simply click the check next to it and press the &#8220;Add&#8221; button. You should now see the tag changed to <cite>STAGED</cite>. By staging a file you are saying you are finalizing the modifications to that file and are ready to commit it.</p>
+<p>As you work on your project, you will notice that Elegit will display the files you have changed in the file view on the left. Initially, they will be tagged as <a class="reference internal" href="_images/tag_modified.png"><img alt="modified" src="_images/tag_modified.png" style="width: 52.0px; height: 19.0px;" /></a>. When you wish to add a file, simply click the check next to it and press the &#8220;Add&#8221; button. You should now see the tag changed to <a class="reference internal" href="_images/tag_staged.png"><img alt="staged" src="_images/tag_staged.png" style="width: 44.0px; height: 19.0px;" /></a>. By staging a file you are saying you are finalizing the modifications to that file and are ready to commit it.</p>
 </div>
-<div class="section" id="committing-changes">
-<h2>Committing Changes<a class="headerlink" href="#committing-changes" title="Permalink to this headline">¶</a></h2>
-<p>The commit box shows which files you have staged. Add a useful message and hit the &#8220;Commit&#8221; button. Congrats!</p>
-</div>
-<div class="section" id="pushing-changes">
-<h2>Pushing Changes<a class="headerlink" href="#pushing-changes" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference internal" href="push.html#push"><span class="std std-ref">Pushing to a Remote Repository</span></a></p>
+<div class="section" id="committing-and-pushing-changes">
+<h2>Committing and Pushing Changes<a class="headerlink" href="#committing-and-pushing-changes" title="Permalink to this headline">¶</a></h2>
+<p>One of the most crucial parts of Git are <strong>commits</strong>. While working on a project, you will want to save your progress, whether fixing a bug or adding a new feature. At this point you should make sure you have added all the files  you want to save. The commit box shows which files you have staged. Click the <strong>Commit</strong> button in the upper left, add a useful message, and then hit the window&#8217;s <strong>Commit</strong> button. A successful commit will show up in the tree view. Finally, to backup your commits online in your remote repository, click <strong>Push</strong>.</p>
 </div>
 </div>
 
@@ -108,14 +104,11 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">First Elegit Project</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#loading-a-repository">Loading a Repository</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#adding-changes">Adding Changes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#committing-changes">Committing Changes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#pushing-changes">Pushing Changes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#committing-and-pushing-changes">Committing and Pushing Changes</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="repo_status.html">Repository Status</a></li>
-<li class="toctree-l1"><a class="reference internal" href="load_repo.html">Loading a Repository</a></li>
 <li class="toctree-l1"><a class="reference internal" href="add_files.html">Adding Files</a></li>
-<li class="toctree-l1"><a class="reference internal" href="push.html">Pushing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fetch.html">Fetching</a></li>
 <li class="toctree-l1"><a class="reference internal" href="branch.html">Creating a Branch</a></li>
 <li class="toctree-l1"><a class="reference internal" href="merging.html">Merging</a></li>

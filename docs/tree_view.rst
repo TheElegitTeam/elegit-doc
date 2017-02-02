@@ -18,3 +18,8 @@ Interacting with past commits
 2. Revert
 3. Checkout
 4. Relatives
+
+.. _tags:
+
+Tags
+____

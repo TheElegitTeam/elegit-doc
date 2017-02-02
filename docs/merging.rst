@@ -1,6 +1,8 @@
+.. _merge:
+
 Merging
 =======
-There are different things that can happen when merging
+Most commonly merges happen after fetching changes from the remote repository. Here's how you merge:
 
 How to merge
 ----------------
@@ -13,4 +15,3 @@ This can happen
 Resolving conflicts
 --------------------
 ``things break``
-

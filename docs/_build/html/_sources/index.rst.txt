@@ -13,9 +13,7 @@ Welcome to Elegit!
    getting_started
    intro_tutorial
    repo_status
-   load_repo
    add_files
-   Pushing <push>
    fetch
    branch
    merging

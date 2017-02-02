@@ -46,7 +46,6 @@ Now let's get started! First look at the documentation that currently exists and
 * Complete :ref:`intro-tutorial` tutorial
 * Create page on distinctions between Working Tree, Local Repository, and Remote Repository
 * Change the :ref:`add` page to be more general and talk about staging
-* Write :ref:`commit` page and describe commit window options
 * Write tutorial on branching (something like `this <https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging>`_ or `this tutorial <https://www.atlassian.com/git/tutorials/using-branches>`_ but in Elegit)
 * Page on merge window and its options
 * Write detailed tutorial(s) on merging
